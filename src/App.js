@@ -13,6 +13,7 @@ class App extends Component {
           <Profile
             name={person.name}
             profession={person.profession}
+            address={person.address}
             socials={person.socials}
           />
         </div>
