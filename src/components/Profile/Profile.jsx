@@ -5,7 +5,7 @@ const Profile = ({ name, profession }) => {
   return (
     <div className={styles.Profile}>
       <div>Avatar</div>
-      <div className={styles.title}>
+      <div className={styles.Title}>
         <h1>{name}</h1>
         <h2>{profession}</h2>
       </div>
