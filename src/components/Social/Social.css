@@ -1,0 +1,28 @@
+.Social {
+  margin-top: 30px;
+}
+
+.Social a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: all 0.2s linear;
+}
+
+.Social a:hover,
+.Social a:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+.Social i {
+  font-size: 28px;
+}
+
+.Social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Social li {
+  display: inline-block;
+  margin-right: 5px;
+}

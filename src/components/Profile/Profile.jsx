@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from './Profile.css';
 
-const Profile = ({ name, profession }) => {
+import Social from '../Social/Social';
+
+const Profile = ({ name, profession, socials }) => {
   return (
     <div className={styles.Profile}>
       <div>Avatar</div>
@@ -9,7 +11,7 @@ const Profile = ({ name, profession }) => {
         <h1>{name}</h1>
         <h2>{profession}</h2>
       </div>
-      <div>Social</div>
+      <Social socials={socials} />
     </div>
   );
 };

@@ -10,7 +10,11 @@ class App extends Component {
     return (
       <div className={styles.App}>
         <div className={styles.SideBar}>
-          <Profile name={person.name} profession={person.profession} />
+          <Profile
+            name={person.name}
+            profession={person.profession}
+            socials={person.socials}
+          />
         </div>
         <div className={styles.ContentWrapper}>
           <div className={styles.Content}>Resume</div>
