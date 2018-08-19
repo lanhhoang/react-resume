@@ -12,7 +12,9 @@ class App extends Component {
         <div className={styles.SideBar}>
           <Profile name={person.name} profession={person.profession} />
         </div>
-        <div className={styles.ContentWrapper}>Resume</div>
+        <div className={styles.ContentWrapper}>
+          <div className={styles.Content}>Resume</div>
+        </div>
       </div>
     );
   }
