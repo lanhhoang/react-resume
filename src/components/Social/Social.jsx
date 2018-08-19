@@ -8,7 +8,7 @@ const Social = ({ socials }) => {
         return (
           <li key={social.name}>
             <a href={social.url} target="_blank" rel="noopener noreferrer">
-              <i className={`fa fa-${social.name}-square`} />
+              <i className={`fab fa-${social.name}`} />
             </a>
           </li>
         );
