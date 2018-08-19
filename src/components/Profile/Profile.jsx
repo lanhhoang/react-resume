@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './Profile.css';
 
 const Profile = ({ name, profession }) => {
   return (
-    <div>
+    <div className={styles.Profile}>
       <div>Avatar</div>
       <div className={styles.title}>
         <h1>{name}</h1>
