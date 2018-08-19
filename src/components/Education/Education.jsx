@@ -6,12 +6,14 @@ const Education = ({ educations }) => {
       {educations.map(education => {
         return (
           <div className="item" key={education.degree}>
-            <h3>{edu.university}</h3>
+            <h3>{education.university}</h3>
             <span>
-              {edu.startDate} - {edu.endDate}
+              {education.startTime} - {education.endTime}
             </span>
-            <p>{edu.degree}</p>
-            <p>{edu.description}</p>
+            <p>
+              {education.degree} {education.fieldOfStudy}
+            </p>
+            <p>{education.description}</p>
           </div>
         );
       })}
@@ -25,3 +27,5 @@ const Education = ({ educations }) => {
     </div>
   );
 };
+
+export default Education;

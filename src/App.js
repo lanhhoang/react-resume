@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from './App.css';
 
 import Profile from './components/Profile/Profile';
+import Education from './components/Education/Education';
 
 import person from './data/data';
 
@@ -18,7 +19,9 @@ class App extends Component {
           />
         </div>
         <div className={styles.ContentWrapper}>
-          <div className={styles.Content}>Resume</div>
+          <div className={styles.Content}>
+            <Education educations={person.educations} />
+          </div>
         </div>
       </div>
     );
