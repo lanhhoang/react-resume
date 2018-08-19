@@ -1,2 +1,27 @@
 .App {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  position: relative;
+}
+
+.SideBar {
+  box-shadow: 4px 0px 5px -2px rgba(94, 94, 94, 0.81);
+  text-align: center;
+  position: fixed;
+  width: 420px;
+  margin-right: -320px;
+  float: left;
+  color: white !important;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgb(22, 135, 237) 0%,
+    rgb(20, 55, 90) 100%
+  );
+}
+
+.ContentWrapper {
+  float: right;
+  width: 100%;
 }
