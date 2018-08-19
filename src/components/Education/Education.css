@@ -1,2 +1,31 @@
 .Education {
+  padding-bottom: 20px;
+}
+
+.Education i {
+  float: left;
+  color: #233f5d;
+  font-size: 26px;
+  margin-right: 15px;
+}
+
+.Item {
+  margin-bottom: 30px;
+}
+
+.Item h3 {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.Item span {
+  color: rgba(35, 63, 93, 0.9);
+  font-weight: 300;
+}
+
+.Item p {
+  margin-top: 0px;
+  width: 95%;
+  letter-spacing: 1.1px;
+  line-height: 25px;
 }

@@ -1,11 +1,12 @@
 import React from 'react';
+import styles from './Education.css';
 
 const Education = ({ educations }) => {
   const myEducation = (
     <div>
       {educations.map(education => {
         return (
-          <div className="item" key={education.degree}>
+          <div className={styles.Item} key={education.degree}>
             <h3>{education.university}</h3>
             <span>
               {education.startTime} - {education.endTime}
@@ -20,7 +21,7 @@ const Education = ({ educations }) => {
     </div>
   );
   return (
-    <div>
+    <div className={styles.Education}>
       <i className="fas fa-graduation-cap" />
       <h2>EDUCATION</h2>
       {myEducation}

@@ -14,11 +14,7 @@
   float: left;
   color: white !important;
   height: 100%;
-  background-image: linear-gradient(
-    to top,
-    rgb(22, 135, 237) 0%,
-    rgb(20, 55, 90) 100%
-  );
+  background-image: linear-gradient(to top, #93f9b9 0%, #1d976c 100%);
 }
 
 .ContentWrapper {
