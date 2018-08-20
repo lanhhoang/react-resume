@@ -15,6 +15,16 @@ const DATA = {
       endTime: '2015',
       description: ''
     }
+  ],
+  experiences: [
+    {
+      company: 'Renesas Design Vietnam Co., Ltd.',
+      jobTitle: 'Hardware Engineer',
+      startTime: 'Mar 2015',
+      endTime: 'Jan 2017',
+      description:
+        '- Responsible for\n+ Doing verification AMBA generator tool using random test\n+ Doing verification Bus modules using combined test\n+ Applying Jenkins for regression test to reduce testing time\n+ Making script to generate test patterns\n- Experience in:\n+ Verification based on constrained random test-bench: SystemVerilog, UVM environment.\n+ Perl, Cshell\n+ Spyglass\n+ Synthesis\n+ Checker: HLDRC, DFTcheck, STAcheck'
+    }
   ]
 };
 

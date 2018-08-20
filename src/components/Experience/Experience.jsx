@@ -10,7 +10,7 @@ const Experience = ({ experiences }) => {
         return (
           <Card
             key={experience.company}
-            header={education.company}
+            header={experience.company}
             metadata={`${experience.startTime} - ${experience.endTime}`}
             title={experience.jobTitle}
             description={experience.description}
