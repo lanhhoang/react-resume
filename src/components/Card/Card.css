@@ -1,0 +1,20 @@
+.Card {
+  margin-bottom: 30px;
+}
+
+.Card h3 {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.Card span {
+  color: rgba(35, 63, 93, 0.9);
+  font-weight: 300;
+}
+
+.Card p {
+  margin-top: 0px;
+  width: 95%;
+  letter-spacing: 1.1px;
+  line-height: 25px;
+}
