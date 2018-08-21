@@ -1,0 +1,9 @@
+.Avatar {
+}
+
+.Avatar img {
+  width: 140px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
