@@ -4,7 +4,8 @@ const DATA = {
   address: 'Ho Chi Minh City, Vietnam',
   socials: [
     { name: 'github', url: 'https://github.com/lanhhoang' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/lanhhoang' }
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/lanhhoang' },
+    { name: 'medium', url: 'https://medium.com/@lanh.hoang' }
   ],
   educations: [
     {
@@ -18,12 +19,18 @@ const DATA = {
   ],
   experiences: [
     {
+      company: 'TINYpulse',
+      jobTitle: 'Software Engineer',
+      startTime: 'May 2017',
+      endTime: 'Present',
+      description: ''
+    },
+    {
       company: 'Renesas Design Vietnam Co., Ltd.',
       jobTitle: 'Hardware Engineer',
       startTime: 'Mar 2015',
       endTime: 'Jan 2017',
-      description:
-        '- Responsible for\n+ Doing verification AMBA generator tool using random test\n+ Doing verification Bus modules using combined test\n+ Applying Jenkins for regression test to reduce testing time\n+ Making script to generate test patterns\n- Experience in:\n+ Verification based on constrained random test-bench: SystemVerilog, UVM environment.\n+ Perl, Cshell\n+ Spyglass\n+ Synthesis\n+ Checker: HLDRC, DFTcheck, STAcheck'
+      description: ''
     }
   ]
 };
