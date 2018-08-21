@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './Profile.css';
 
+import Avatar from '../Avatar/Avatar';
 import Social from '../Social/Social';
 
-const Profile = ({ name, profession, address, socials }) => {
+const Profile = ({ avatar, name, profession, address, socials }) => {
   return (
     <div className={styles.Profile}>
-      <div>Avatar</div>
+      <Avatar avatarUrl={avatar} alt={name} />
       <div className={styles.Title}>
         <h1>{name}</h1>
         <h2>{profession}</h2>

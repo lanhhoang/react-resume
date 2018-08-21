@@ -13,6 +13,7 @@ class App extends Component {
       <div className={styles.App}>
         <div className={styles.SideBar}>
           <Profile
+            avatar={person.avatar}
             name={person.name}
             profession={person.profession}
             address={person.address}
