@@ -61,7 +61,7 @@ class Avatar extends PureComponent {
 
     const { imageUrlLoaded } = this.state;
 
-    const customSize = parseInt(size);
+    const customSize = parseInt(size, 10);
 
     const avatarUrl =
       url ||
