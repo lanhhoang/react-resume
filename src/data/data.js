@@ -1,6 +1,7 @@
 const DATA = {
-  avatar: 'https://randomuser.me/api/portraits/men/46.jpg',
+  avatar: '',
   name: 'Lanh Hoang',
+  email: 'lanh.hoangcong@gmail.com',
   profession: 'Software Engineer',
   address: 'Ho Chi Minh City, Vietnam',
   socials: [
